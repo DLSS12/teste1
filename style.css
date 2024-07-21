@@ -1,0 +1,43 @@
+body {
+    /* background-image: url(img/wall.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;*/
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: blueviolet;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+
+}
+
+.box {
+    width: 250px;
+    height: 450px;
+    background-color: yellow;
+    border-radius: 10%;
+    padding: 1%;
+}
+ .box img{
+     width: 200px;
+     height: 200px;
+     align-items: center;
+ }
+ 
+ h1{
+     text-align: center;
+ }
